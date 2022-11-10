@@ -11,15 +11,15 @@ submitBtn.addEventListener("click", function(event){
 
     // If inputs are empty, stop the button from clicking
     // submitBtn.disabled = true;
-    if(floorValue.value === "" && liftValue.value === ""){
-        submitBtn.disabled = true;
-        event.preventDefault();
-        event.stopPropagation();
-        console.log(submitBtn.disabled);    
-    }else{
-        submitBtn.disabled = false;
-        console.log(submitBtn.disabled);    
-    }
+    // if(floorValue.value === "" && liftValue.value === ""){
+    //     submitBtn.disabled = true;
+    //     event.preventDefault();
+    //     event.stopPropagation();
+    //     console.log(submitBtn.disabled);    
+    // }else{
+    //     submitBtn.disabled = false;
+    //     console.log(submitBtn.disabled);    
+    // }
 
     // Creating floor container
     let floor = document.createElement("div");
