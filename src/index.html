@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛗Lift-Simulation App</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="form">
+        <form class="form-input">
+            <div class="floor-num">
+                <label for="Floors">Number of Floors: </label>
+                <input type="number" class="floor-input" name="floors" min="1" max="10" id="no-of-floors" required>
+            </div>
+            <div class="lift-num">
+                <label for="Lifts">Number of Lifts: </label>
+                <input type="number" class="lift-input" name="lifts" min="1" max="5" id="no-of-lifts" required>
+            </div>
+            <!-- <div class="submit"> -->
+                <button type="submit" class="button-input" id="submit">Ready for Simulation</button>
+            <!-- </div> -->
+        </form>
+    </div>
+
+    <div class="lift-simulation" id="lift-container">
+        <!-- <div class="floor" id="floors">
+            <div class="floor-container" id="floor-btns">
+                <button class="floor-btn btn-up">Up</button>
+                <button class="floor-btn btn-down">Down</button>         
+            </div>
+            <div class="lift" id="lifts">
+                <div class="doors">
+                    <div class="left-door"></div>
+                    <div class="right-door"></div>
+                </div>
+            </div>
+            <div class="floor-name" id="floor-number">
+                <p>Floor 1</p>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
